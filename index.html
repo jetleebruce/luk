@@ -1,104 +1,114 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-grid.min.css">
     <title>Lukiol</title>
-  </head>
-  <body>
-    <div class="up-section"></div>
-    <div class="up-section__logo">
-      <img src="logo.png" alt="logo" />
+</head>
+<body>
+    <!-- <div class="portfolio portfolio__case"> -->
+       <!-- <div class="row">
+           <div class="col-12"> -->
+           <div class="section-up">
+
+            <!-- </div></div> -->
+        
+
+    <div class="container-fluid">
+        <div class="row">
+            
+    <div class="section-up__logo">
+        <img src="logo.png" alt="logo" class="img-fluid">
     </div>
-    <div class="up-section__demo">
-      <img src="demo.png" alt="Лукойл демо" />
-      <p>
-        Гибридное мобильное приложение «LLK Портал» для экспедиторов и
-        авторизованных покупателей. Упрощает доступ на сайт предварительной
-        записи на погрузку масел и битума компании «ЛУКОЙЛ».
-      </p>
+
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 mt-3">
+    <!-- <div class="section-up__demo"> -->
+<img src="demo.png" alt="demo" class="img-fluid top-image"></div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mt-3">
+<span class="top-text">Гибридное мобильное приложение «LLK Портал» для экспедиторов и авторизованных покупателей. 
+    Упрощает доступ на сайт предварительной записи на погрузку масел и битума компании «ЛУКОЙЛ».
+</span>
     </div>
-    <div class="goals">
-      <h2>задачи</h2>
-      <ul>
-        <li>
-          - предотвратить возможность перехвата конфиденциальной информации,
-          оставленной на сайте
-        </li>
-        <li>- ускорить работу приложения</li>
-        <li>- реализовать удобный функционал по обновлению страницы</li>
-      </ul>
+</div>
+<!-- </div> -->
+</div>
+</div>
+</div>
+</div>
+
+    <div class="container">
+        <div class="row">
+            <div class="goals">
+            <h2>задачи</h2>
+<span>
+- предотвратить возможность перехвата конфиденциальной информации, оставленной на сайте</br>
+- ускорить работу приложения</br>
+- реализовать удобный функционал по обновлению страницы
+</span>
+        </div>
+
     </div>
-    <div class="truck">
-      <img src="truck.png" alt="truck" />
-    </div>
+
+</div>
+<div class="container-fluid">
+<!-- <div class="col-lg-11 col-xl-11">
+    <img src="truck.png" alt="truck" class="pic-truck">
+</div> -->
+<div class=".col-sm-11 col-md-11 .col-11">
+<img src="truck.png" alt="truck" class="pic-truck-sm">
+</div>
+    
+</div>
+
+    
     <div class="realization">
-      <h2>реализация</h2>
-      <ul>
-        <li>
-          Для того, чтобы защитить информацию от перехвата, было установлено
-          безопасное подключение по протоколу HTTPS.<br />
-          В случае ошибки доступа по HTTPS, подключение проходит по протоколу
-          HTTP. В предыдущей версии использовался только HTTP.
-        </li>
-        <br />
-        <li>
-          С целью ускорения работы приложения, добавлено кэширование файлов, в
-          результате чего экраны стали грузиться<br />
-          за 2-3 секунды. Ранее загрузка проходила значительно медленнее – в
-          течение 30-40 секунд.
-        </li>
-        <br />
-        <li>
-          Добавлен Pull-to-refresh функционал по обновлению контента экрана при
-          оттягивании страницы вниз. Таким образом, использование приложения
-          стало значительно удобнее, функциональнее и главное – стало безопасным
-          с точки зрения защиты информации.
-        </li>
-      </ul>
+        <div class="container">
+<h2>реализация</h2>
+<span class="realization__txt">
+    Для того, чтобы защитить информацию от перехвата, было установлено безопасное подключение по протоколу HTTPS.В случае ошибки доступа по HTTPS, подключение проходит по протоколу HTTP. В предыдущей версии использовался только HTTP. <br><br>
+
+    С целью ускорения работы приложения, добавлено кэширование файлов, в результате чего экраны стали грузиться за 2-3 секунды. Ранее загрузка проходила значительно медленнее – в течение 30-40 секунд. <br><br>
+    
+    Добавлен Pull-to-refresh функционал по обновлению контента экрана при оттягивании страницы вниз. Таким образом, использование приложения стало значительно удобнее, функциональнее и главное – стало безопасным с точки зрения защиты информации. 
+    </span>
+</div>
     </div>
-    <div class="block-container">
-      <div class="block-box">
-        <div class="block-box__function">
-          <h2>Функционал</h2>
-          <ul>
-            <li>
-              1. Вход в приложение двумя способами: пин-код<br/> или Touch ID по
-              отпечатку пальца.
-            </li>
-</br>
-            <li>
-              2. Запись на погрузку:<br/> - выбор продукции из списка (можно выбрать
-              места, откуда будет отправлена продукция);<br/> - выбор даты в
-              календаре;<br/> - выбор времени, к которому нужно доставить;<br/> -
-              подтверждение записи.
-            </li>
-          </br>
-            <li>
-              3. Просмотр записей (история предыдущих заказов: дата, состав и
-              статус заказа, номер заказа, данные водителя).
-            </li>
-          </ul>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+<div class="func">
+    <h2>функционал</h2>
+    <span>1.  Вход в приложение двумя способами: пин-код<br> или Touch ID по отпечатку пальца.<br><br>
+
+2.  Запись на погрузку: <br>
+- выбор продукции из списка (можно выбрать места, откуда<br> будет отправлена продукция);
+- выбор даты в календаре;<br>
+- выбор времени, к которому нужно доставить;<br>
+- подтверждение записи.<br>
+
+3.  Просмотр записей (история предыдущих заказов: дата,<br> состав и статус заказа, номер заказа, данные водителя).
+</span>
+</div>
+<div class="renew">
+    <h2>обновление</h2>
+    <span>-  безопасное подключение по протоколу HTTPS
+-  улучшение базовой навигации приложения
+-  ускорение работы приложения с помощью кэширования файлов</span>
+</div>
+            </div>
+            <div class="col">
+                <img src="barrel.png" alt="barrel" class="barrel">
+            </div>
         </div>
-        <div class="block-box__renew">
-          <h2>обновление</h2>
-          <ul>
-            <li>
-              - безопасное подключение по протоколу HTTPS<br/> - улучшение базовой
-              навигации приложения<br/> - ускорение работы приложения с помощью
-              кэширования файлов
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="block-image">
-        <img src="oiltanks.png" alt="oil" />
-      </div>
     </div>
-  </body>
+    <!-- </div> -->
+    
+</body>
 </html>
