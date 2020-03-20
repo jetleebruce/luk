@@ -67,7 +67,7 @@ img {
 
 /* Natural flow and rhythm in articles by default */
 
-article>*+* {
+article > * + * {
   margin-top: 1em;
 }
 
@@ -157,6 +157,7 @@ select {
   line-height: 39px;
   color: #ed1a1a;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .goals ul {
@@ -219,6 +220,7 @@ select {
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   margin-top: 96px;
+  font-size: 18px;
 }
 
 .renew h2 {
@@ -263,10 +265,9 @@ select {
 
   .store {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 20px;
   }
-
 }
 
 /* // Средние девайсы («таблетки», >= 768px) */
@@ -276,8 +277,13 @@ select {
   }
 
   .mt-4 {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 150px;
+  }
+
+  .store {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
   }
 }
 
@@ -285,6 +291,11 @@ select {
 @media (min-width: 992px) {
   .top-text {
     color: azure;
+  }
+  .store {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
   }
 }
 
@@ -297,5 +308,11 @@ select {
     font-family: "Montserrat", sans-serif;
     line-height: 30px;
     /* margin-top: 161px; */
+  }
+
+  .store {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
   }
 }
