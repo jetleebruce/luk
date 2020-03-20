@@ -67,7 +67,7 @@ img {
 
 /* Natural flow and rhythm in articles by default */
 
-article > * + * {
+article>*+* {
   margin-top: 1em;
 }
 
@@ -97,6 +97,11 @@ select {
 .mt-3 {
   margin-top: 85px;
 }
+
+.mt-4 {
+  margin-top: 150px;
+}
+
 .section-up {
   margin: 0 auto;
   width: 100vw;
@@ -110,7 +115,7 @@ select {
 }
 
 .section-up__logo {
-  margin: 0 auto;
+  margin: 0 30px;
   padding-top: 126px;
   justify-content: center;
   z-index: 3;
@@ -123,12 +128,16 @@ select {
   z-index: 23;
 }
 
+.center {
+  justify-content: center;
+}
+
 /* .top-image {
   height: 800px;
 } */
 
 .top-text {
-  color: #000000;
+  color: white;
   max-width: 404px;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
@@ -164,7 +173,7 @@ select {
 }
 
 .pic-truck-sm {
-  padding-left: 63px;
+  padding-left: 0;
   margin-top: 105px;
   width: 100%;
 }
@@ -223,6 +232,13 @@ select {
 
 .barrel {
   margin-top: 77px;
+  align-items: center;
+}
+
+.store {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 /* // Экстрамалые девайсы («телефоны», < 576px)
@@ -233,12 +249,35 @@ select {
   .top-text {
     color: #000000;
   }
+
+  .mt-4 {
+    margin-top: 125px;
+    margin-bottom: 70px;
+  }
+
+  .pic-truck-sm {
+    padding-left: 0;
+    margin-top: 105px;
+    width: 100%;
+  }
+
+  .store {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
 }
 
 /* // Средние девайсы («таблетки», >= 768px) */
 @media (min-width: 768px) {
   .top-text {
     color: #000000;
+  }
+
+  .mt-4 {
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 }
 
